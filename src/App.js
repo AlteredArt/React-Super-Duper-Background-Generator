@@ -1,18 +1,26 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import Intro from './Components/Intro';
+import { Redirect } from 'react-router-dom';
 
 function App() {
-  return (
-    <div className="App">
-      <h1>Generate your gradient background!</h1>
-      <h2>Then Copy and Paste!</h2>
-      <hr />
-      <input class="color1" type="color" name="color1" value="#FFFFFF" />
-      <input class="color2" type="color" name="color2" value="#FFFFFF" />
-      <hr />
-      <button id='radial'>Radial</button>
-      <button id='linear'>Linear</button><br />
-    </div>
-  );
+  const [displayIntro, setDisplayIntro] = useState(true);
+
+  //set timeout on display intro after 4 seconds
+  useEffect(() => {
+    if (displayIntro) {
+      setTimeout(() => {
+        setDisplayIntro(false)
+      }, 5000)
+    }
+  }, [displayIntro])
+
+  //display conditional
+  let intro = displayIntro ? (
+    <Intro />
+  ) : (
+      <Redirect to='/home' />
+    )
+  return ([intro]);
 }
 
 export default App;
