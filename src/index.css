@@ -11,3 +11,70 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.App{
+  text-align: center;
+}
+
+body {
+  font: 'Raleway', sans-serif;
+  color: rgba(0, 0, 0, .5);
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  top: 15%;
+  background-size: cover;
+  height: 100vh;
+}
+
+input {
+  border: 3px solid black;
+  margin: 10px;
+}
+
+h1 {
+  width: 100%;
+  background-color: white;
+}
+
+h3,
+p {
+  background-color: white;
+  font-size: 30px;
+}
+
+#linear {
+  position: relative;
+  top: 0px;
+  right: -20px;
+}
+
+#radial {
+  position: relative;
+  top: 0px;
+  left: -20px;
+}
+
+#RR,
+#LR {
+  position: relative;
+  top: 0px;
+  right: -60px;
+}
+
+#RL,
+#LL {
+  position: relative;
+  top: 0px;
+  left: -60px;
+}
+
+button {
+  font-size: 20px;
+  border-radius: 50px;
+  color: black;
+  margin: 10px;
+  background-color: white;
+  border: 2px solid black;
+  padding: 5px;
+}
