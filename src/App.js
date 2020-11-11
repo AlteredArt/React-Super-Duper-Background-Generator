@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Intro from './Components/Intro';
 import { Redirect } from 'react-router-dom';
 
-function App() {
+export default function App() {
   const [displayIntro, setDisplayIntro] = useState(true);
 
   //set timeout on display intro after 4 seconds
@@ -19,8 +19,8 @@ function App() {
     <Intro />
   ) : (
       <Redirect to='/home' />
-    )
+    );
+
+
   return ([intro]);
 }
-
-export default App;
