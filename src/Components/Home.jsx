@@ -1,5 +1,6 @@
 import React from 'react';
 import Selections from './Selections'
+//make the home page switch out
 export default function Home() {
     return (
         <div>
@@ -8,3 +9,4 @@ export default function Home() {
         </div>
     )
 }
+

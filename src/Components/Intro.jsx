@@ -1,6 +1,6 @@
 import { render } from '@testing-library/react';
 import React from 'react';
-
+//make intro switch after 5 seconds
 export default function Intro() {
     return (
         <div className='Intro'>
