@@ -5,3 +5,6 @@ for your project.
 
 
 fix the intro and home page transition
+
+make progress within the next week
+instal visual studi for word press
