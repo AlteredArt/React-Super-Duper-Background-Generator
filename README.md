@@ -8,3 +8,6 @@ fix the intro and home page transition
 
 make progress within the next week
 instal visual studi for word press
+see how you use amazon cli
+use it to be used by amazon s3
+make sure divi is refunded along with the server
