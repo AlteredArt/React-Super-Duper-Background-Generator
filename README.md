@@ -12,7 +12,7 @@ see how you use amazon cli
 use it to be used by amazon s3
 make sure divi is refunded along with the server
 
+
+set up electric new vehicle and renters insurance
 work on scss
-do work on here
-pet waffles
-kiss chloe
+find internet through spectrum or the other one
