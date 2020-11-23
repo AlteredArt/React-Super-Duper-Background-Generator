@@ -16,3 +16,7 @@ make sure divi is refunded along with the server
 set up electric new vehicle and renters insurance
 work on scss
 find internet through spectrum or the other one
+
+transfer all pictures
+back up hard drives
+fix under the bed
