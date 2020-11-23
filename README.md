@@ -20,3 +20,6 @@ find internet through spectrum or the other one
 transfer all pictures
 back up hard drives
 fix under the bed
+
+cancel att
+change address
